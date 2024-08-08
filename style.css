@@ -1,0 +1,80 @@
+body{
+    background-color: #0080cb;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+input{
+    height: 20px;
+    padding: 0px 5px;
+    margin-bottom: 10px;   
+}
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.email label{
+    text-align: center;
+    align-items: center;
+}
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    width: 150px;
+}
+
+.botoes a{
+    text-decoration: none;
+
+    color: black;
+    background-color: white;
+
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin: 0px 5px;
+
+    transition: all 1s;
+}
+.botoes a:hover{
+    background-color: rgb(216, 214, 214);
+}
+.btn-registrar{
+    width: 75px;
+}
+.btn-login{
+    width: 75px;
+    text-align: center;
+}
+.btn-recuperar{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 25px;
+    width: 150px;
+
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background-color: white;
+
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin: 5px 5px;
+
+    transition: all 1s;
+}
+
+.btn-recuperar:hover{   
+    background-color: rgb(216, 214, 214);
+}
+
+
