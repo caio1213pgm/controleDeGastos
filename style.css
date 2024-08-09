@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     background-color: #0080cb;
     color: white;
@@ -8,73 +12,75 @@ body{
 }
 
 input{
-    height: 20px;
-    padding: 0px 5px;
-    margin-bottom: 10px;   
+    height: 25px;
 }
 .formulario{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
+    gap: 8px;
+}
+.formulario div{
+    width: 100%;
+}
+.formulario input{
+    padding: 0px 8px;
+    width: 100%;
 }
 .email label{
-    text-align: center;
-    align-items: center;
+    width: 100%;
 }
 .botoes{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 0px;
-    width: 150px;
+    gap: 8px;
 }
 
-.botoes a{
+.botoes button{
     text-decoration: none;
+    text-align: center;
+    cursor: pointer;
 
     color: black;
     background-color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    width: calc(50%);
 
-    padding: 8px 20px;
-    border-radius: 5px;
-    margin: 0px 5px;
+}
+.botoes button:active{
+    opacity: 0.8;
+}
 
-    transition: all 1s;
-}
-.botoes a:hover{
-    background-color: rgb(216, 214, 214);
-}
-.btn-registrar{
-    width: 75px;
-}
-.btn-login{
-    width: 75px;
-    text-align: center;
-}
+
+
 .btn-recuperar{
     display: block;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0px 25px;
-    width: 150px;
+    padding: 5px;
+
+    width: 100%;
 
     text-decoration: none;
     text-align: center;
-    color: black;
-    background-color: white;
 
-    padding: 8px 20px;
-    border-radius: 5px;
-    margin: 5px 5px;
+    background-color: transparent;
+    border: 0.5px solid;
+    cursor: pointer;
 
-    transition: all 1s;
+    color: white;
+
+    border-radius: 8px;
+    
 }
 
 .btn-recuperar:hover{   
-    background-color: rgb(216, 214, 214);
+    text-decoration: underline;
 }
 
 
