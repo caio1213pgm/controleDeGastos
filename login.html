@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Controle de Gastos</title>
+</head>
+<body>
+    <form class="formulario">
+
+        <div class="email">
+
+            <label>Email:</label><br>
+            <input type="email" nome="email" id="email" oninput="validarCampo()" placeholder="email@email.com">
+
+        </div>
+        <div class="senha">
+
+            <label>Senha:</label><br>
+            <input type="password" nome="senha" placeholder="senha">
+
+        </div>
+
+        <div class="botoes">
+
+            <button type="button" class="btn-login" id="btn-login" disabled>Login</button>
+             
+        </div>
+        <div>
+            <button type="button" class="btn-recuperar" disabled id="btn-recuperar">Recuperar senha</button>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
