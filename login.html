@@ -12,14 +12,18 @@
         <div class="email">
 
             <label>Email:</label><br>
-            <input type="email" nome="email" id="email" oninput="validarCampo()" placeholder="email@email.com">
+            <input type="email" nome="email" id="email" oninput="validarCampoEmail()" placeholder="email@email.com" >
+            
+            <div class="erro" id="email-Obg-Erro">Email obrigatorio</div>
+            <div class="erro" id="email-Inv-Erro">Email inválido</div>
 
         </div>
         <div class="senha">
 
             <label>Senha:</label><br>
-            <input type="password" nome="senha" placeholder="senha">
+            <input type="password" nome="senha" id="senha" oninput="validarCampoSenha()" placeholder="senha">
 
+            <div class="erro" id="senha-Erro">Senha obrigatoria</div>
         </div>
 
         <div class="botoes">
@@ -28,7 +32,7 @@
              
         </div>
         <div>
-            <button type="button" class="btn-recuperar" disabled id="btn-recuperar">Recuperar senha</button>
+            <button type="button" class="btn-recuperar" id="btn-recuperar" disabled>Recuperar senha</button>
         </div>
     </form>
 

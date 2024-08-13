@@ -58,11 +58,6 @@ button:disabled{
 
 }
 
-
-
-
-
-
 .btn-recuperar{
     display: block;
     flex-direction: column;
@@ -89,4 +84,8 @@ button:disabled{
     text-decoration: underline;
 }
 
-
+.erro{
+    background-color: red;
+    padding: 3px;
+    display: none;
+}
